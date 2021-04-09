@@ -1,0 +1,24 @@
+{
+  "name": "ElectronNobleDemo",
+  "version": "1.0.0",
+  "description": "Testing Noble with CoreBluetooth bindings in an Electron app",
+  "main": "src/electron.js",
+  "author": "Bryce LaMay",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "electron": "^12.0.2",
+    "html-webpack-plugin": "^5.3.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "ts-loader": "^8.1.0",
+    "typescript": "^4.2.4",
+    "webpack": "^5.31.0",
+    "webpack-cli": "^4.6.0"
+  },
+  "scripts": {
+    "build": "webpack --config ./webpack.config.js",
+    "start": "yarn build && electron ./dist/electron.js"
+  }
+}
