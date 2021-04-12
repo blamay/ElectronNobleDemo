@@ -6,6 +6,7 @@
   "author": "Bryce LaMay",
   "license": "MIT",
   "devDependencies": {
+    "@types/noble": "^0.0.40",
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
     "electron": "^12.0.2",
@@ -19,7 +20,9 @@
   },
   "scripts": {
     "build": "webpack",
-    "start": "yarn build && electron ./dist/electron.js"
+    "start": "yarn build && electron ./dist/electron.js",
+    "build-tsc": "tsc src/electron.ts",
+    "start-no-webpack": "yarn build-tsc && electron ./src/electron.js"
   },
   "dependencies": {
     "@abandonware/noble": "^1.9.2-13",

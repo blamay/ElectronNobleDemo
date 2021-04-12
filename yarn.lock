@@ -127,6 +127,13 @@
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-3.0.4.tgz#f0ec25dbf2f0e4b18647313ac031134ca5b24b21"
   integrity sha512-1z8k4wzFnNjVK/tlxvrWuK5WMt6mydWWP7+zvH5eFep4oj+UkrfiJTRtjCeBXNpwaA/FYqqtb4/QS4ianFpIRA==
 
+"@types/noble@^0.0.40":
+  version "0.0.40"
+  resolved "https://registry.yarnpkg.com/@types/noble/-/noble-0.0.40.tgz#fb741967167761c79408c12ec2e657fec4c31557"
+  integrity sha512-14o/gk86uiJCCqQhcAeZsB228pHj1kVA47W6EaqIpQPt7y5IFzYSns3/rxC/nP9OqZFGOsgPwu4FTo9tlgnGTA==
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*", "@types/node@^14.6.2":
   version "14.14.37"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-14.14.37.tgz#a3dd8da4eb84a996c36e331df98d82abd76b516e"
